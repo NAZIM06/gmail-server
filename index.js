@@ -1,6 +1,7 @@
 import express from 'express'
 
 const app = express();
+app.use(cors());
 
 const PORT = 8000;
 
